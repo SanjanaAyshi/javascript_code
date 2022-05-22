@@ -11,7 +11,7 @@ else{
 }
 
 var count= kilometerToMeter(-20);
-console.log( "meter is ="+ count);
+console.log(count);
 //02 bouget calculatro
 function bugetCalculator(watch, mobile , laptop){
     var Total=0;
@@ -31,7 +31,7 @@ var watch =prompt ("Input watch number you want to buy= ");
 var mobile =prompt ("Input mobile number you want to buy= ");
 var laptop =prompt ("Input laptop number you want to buy="); 
 var count= bugetCalculator(watch, mobile, laptop);
-console.log("total is =" +count);
+console.log(count);
 //03. hotel cost
 function hotelCost(day){
     var cost=0;
